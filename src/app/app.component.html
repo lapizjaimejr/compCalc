@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Simple Calculator</h1>
+    <div class="operand">
+        <app-numbers (firstOprnd)="getOperand1($event)" (secOprnd)="getOperand2($event)"></app-numbers>
+    </div>
+    <div class="operation">
+        <app-operation (opChoice)="getOperation($event)"></app-operation>
+    </div>
+    <div class="answer">
+        <app-result [opChosen]="operation" [firstNum]="fNum" [secNum]="sNum"></app-result>
+    </div>
+</div>

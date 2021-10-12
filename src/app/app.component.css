@@ -4,6 +4,7 @@
     background-color: bisque;
     width:70%;
     padding: 1em 1em;
+    border-radius: 15px;
 }
 
 .operation {
@@ -21,4 +22,9 @@ h1 {
     margin-top: 4%;
     background-color: rgb(253, 253, 253);
     margin-bottom: 1%;
+    border-radius: 15px;
+}
+
+hr {
+    background-color:rgb(117, 107, 107);
 }

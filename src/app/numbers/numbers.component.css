@@ -1,9 +1,13 @@
 input {
     border: none;
-    height: 3em;
+    height: 2em;
     width: 50%;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 label {
     font-weight: bold;
+    font-size: 20px;
 }
